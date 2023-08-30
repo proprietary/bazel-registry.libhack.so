@@ -1,0 +1,14 @@
+diff --git a/MODULE.bazel b/MODULE.bazel
+index 3beab18..d563565 100644
+--- a/MODULE.bazel
++++ b/MODULE.bazel
+@@ -1,7 +1,7 @@
+ module(
+     name = "double-conversion",
+-    compatibility_level = 1,
+-    version = "0.0.0",
++    compatibility_level = 3,
++    version = "3.3.0",
+ )
+ 
+ bazel_dep(name = "rules_cc", version = "0.0.6")

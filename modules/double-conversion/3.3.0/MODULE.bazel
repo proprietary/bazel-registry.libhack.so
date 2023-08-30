@@ -1,0 +1,7 @@
+module(
+    name = "double-conversion",
+    compatibility_level = 3,
+    version = "3.3.0",
+)
+
+bazel_dep(name = "rules_cc", version = "0.0.6")

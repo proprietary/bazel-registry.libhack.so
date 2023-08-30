@@ -1,0 +1,9 @@
+{
+    "url": "https://github.com/google/double-conversion/archive/032fa6a7d2c319b20d3928f5d762648fa4029acf.zip",
+    "integrity": "sha384-1Qjm/wM4vW0DeArmcqRgYMe3YclNP6vSjg5OE8b1047vA4c1ejF1SWQKa71sJiv2",
+    "strip_prefix": "double-conversion-032fa6a7d2c319b20d3928f5d762648fa4029acf",
+    "patches": {
+	"edit_module_version.patch": "sha384-v9xW+clm32Tshp8QUwcUm0qnE19WWec9Mg2/YlYwZft1gWyvIKd//m4OGzinryPY"
+    },
+    "patch_strip": 1
+}
