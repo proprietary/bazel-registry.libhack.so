@@ -1,0 +1,9 @@
+{
+    "url": "https://download.libsodium.org/libsodium/releases/libsodium-1.0.18.tar.gz",
+    "integrity": "sha384-HdAXHraqNET0x66zXcV4cfFRouZtoTpIelzZfy2dXigLmVuQ3lOxKxdPf2Sdms0N",
+    "strip_prefix": "libsodium-1.0.18",
+    "patches": {
+	"add_build_file_and_module.patch": "sha384-Ibxh7jQ9VMSs8agJvWspqALkKEa/Y3WWGOTwrB2v4DpwNwYfss5cQ/H9XkWlz/QM"
+    },
+    "patch_strip": 1
+}
