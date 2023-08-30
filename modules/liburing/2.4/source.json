@@ -1,0 +1,8 @@
+{
+    "url": "https://github.com/axboe/liburing/archive/refs/tags/liburing-2.4.tar.gz",
+    "integrity": "sha384-sU8YGLx1I0QB3IOzv2ZPwOpiapaXweoshreagsikoSCDTcHksDwE8MILJWRJu2NX",
+    "patches": {
+	"make-bazel-friendly.patch": "sha384-Xfd9sBH8if6LRHBbxSPneAMYic478Wu0ln+BOoAwORTbPtdoqkycSzOxdi3z2XlM"
+    },
+    "patch_strip": 1
+}

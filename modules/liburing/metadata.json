@@ -1,0 +1,5 @@
+{
+    "homepage": "https://github.com/axboe/liburing",
+    "maintainers": ["zds <z@libhack.so>"],
+    "versions": ["2.4"]
+}
