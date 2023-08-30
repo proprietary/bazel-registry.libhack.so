@@ -1,0 +1,4 @@
+module(
+    name = "so_libhack_bazel_registry",
+    version = "0.0.0",
+)

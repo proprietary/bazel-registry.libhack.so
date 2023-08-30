@@ -1,0 +1,10 @@
+{
+    "url": "https://github.com/libevent/libevent/releases/download/release-2.1.12-stable/libevent-2.1.12-stable.tar.gz",
+    "integrity": "sha256-kubeG+nsF2Qo/SNnZ35hzv/C7hyxGQNQN6J9NGsEA7s=",
+    "strip_prefix": "libevent-2.1.12-stable",
+    "patches": {
+	"add_build_file.patch": "sha256-+h00qLz1gJ2CjdIJWAlZ7vlzPi6Q/hWKGIZo+BBsEns=",
+	"module_dot_bazel.patch": "sha256-Ux9w0nR2AoO+nzdpu06XYxKY+q29JK6KKlJlErf4wFc="
+    },
+    "patch_strip": 1
+}

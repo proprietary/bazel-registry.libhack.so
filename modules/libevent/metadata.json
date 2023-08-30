@@ -1,0 +1,5 @@
+{
+    "homepage": "https://github.com/libevent/libevent",
+    "repository": "github:libevent/libevent",
+    "versions": ["2.1.12"]
+}
