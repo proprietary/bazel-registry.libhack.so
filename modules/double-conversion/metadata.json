@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/google/double-conversion",
-    "maintainers": "zds <z@libhack.so>",
+    "maintainers": ["zds <z@libhack.so>"],
     "versions": ["3.3.0"],
     "yanked_versions": []
 }

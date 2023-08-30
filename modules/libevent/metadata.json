@@ -1,5 +1,5 @@
 {
     "homepage": "https://github.com/libevent/libevent",
-    "repository": "github:libevent/libevent",
+    "maintainers": ["zds <z@libhack.so>"],
     "versions": ["2.1.12"]
 }
