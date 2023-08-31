@@ -3,8 +3,7 @@
     "integrity": "sha256-kubeG+nsF2Qo/SNnZ35hzv/C7hyxGQNQN6J9NGsEA7s=",
     "strip_prefix": "libevent-2.1.12-stable",
     "patches": {
-	"add_build_file.patch": "sha256-+h00qLz1gJ2CjdIJWAlZ7vlzPi6Q/hWKGIZo+BBsEns=",
-	"module_dot_bazel.patch": "sha256-Ux9w0nR2AoO+nzdpu06XYxKY+q29JK6KKlJlErf4wFc="
+	"add_build_file_and_module_file.patch": "sha384-vCsAFdzFTHdlZ74iZFRQCRhQNGR/FtHhhuUv3VBCxYHIf6YbJzs24UfhMJDUcOp9"
     },
     "patch_strip": 1
 }
