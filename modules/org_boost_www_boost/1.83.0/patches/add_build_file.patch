@@ -1,0 +1,66 @@
+--- /dev/null	2023-08-29 05:02:59.455689880 -0700
++++ BUILD.bazel	2023-08-30 18:50:16.930108517 -0700
+@@ -0,0 +1,63 @@
++load("@rules_foreign_cc//foreign_cc:defs.bzl", "boost_build")
++
++package(default_visibility = ["//visibility:public"])
++
++filegroup(
++    name = "all_srcs",
++    srcs = glob(["**"]),
++    visibility = ["//visibility:public"],
++)
++
++boost_build(
++    name = "boost",
++    lib_name = "boost",
++    lib_source = ":all_srcs",
++    bootstrap_options = ["--with-icu"], # Unicode support for regex
++    linkopts = ["-lpthread"],
++    out_static_libs = [
++        "libboost_atomic.a",
++        "libboost_chrono.a",
++        "libboost_container.a",
++        "libboost_date_time.a",
++        "libboost_filesystem.a",
++        "libboost_contract.a",
++        "libboost_coroutine.a",
++        "libboost_exception.a",
++        "libboost_fiber.a",
++        "libboost_graph.a",
++        "libboost_iostreams.a",
++        "libboost_json.a",
++        "libboost_locale.a",
++        "libboost_log.a",
++        "libboost_math_c99f.a",
++        "libboost_math_c99l.a",
++        "libboost_math_tr1.a",
++        "libboost_math_tr1f.a",
++        "libboost_math_tr1l.a",
++        "libboost_nowide.a",
++        "libboost_prg_exec_monitor.a",
++        "libboost_program_options.a",
++        "libboost_random.a",
++        "libboost_regex.a",
++        "libboost_serialization.a",
++        "libboost_stacktrace_addr2line.a",
++        "libboost_stacktrace_backtrace.a",
++        "libboost_stacktrace_basic.a",
++        "libboost_stacktrace_noop.a",
++        "libboost_system.a",
++        "libboost_test_exec_monitor.a",
++        "libboost_thread.a",
++        "libboost_timer.a",
++        "libboost_type_erasure.a",
++        "libboost_unit_test_framework.a",
++        "libboost_url.a",
++        "libboost_wave.a",
++        "libboost_wserialization.a",
++    ],
++    user_options = [
++        "link=static",
++        "threading=multi",
++        "variant=release",
++    ],
++    visibility = ["//visibility:public"],
++)

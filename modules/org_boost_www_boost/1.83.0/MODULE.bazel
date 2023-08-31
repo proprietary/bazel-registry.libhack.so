@@ -1,0 +1,8 @@
+module(
+    name = "org_boost_www_boost",
+    version = "1.83.0",
+    compatibility_level = 1,
+)
+
+bazel_dep(name = "rules_cc", version = "0.0.8")
+bazel_dep(name = "rules_foreign_cc", version = "0.9.0")

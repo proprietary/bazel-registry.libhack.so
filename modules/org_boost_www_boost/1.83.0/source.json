@@ -1,0 +1,9 @@
+{
+    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.83.0/source/boost_1_83_0.tar.gz",
+    "strip_prefix": "boost_1_83_0",
+    "integrity": "sha384-1Ko+eEuTz3zI0AVv0cNm5lFp894IM/PyBY6dXmie8JN9dt+BQWU0Up+37VX2q8/E",
+    "patches": {
+	"add_build_file.patch": "sha384-dndcGUrizq09Z0uRWhIFhQu+VzElodsRhb3+c9QBXivfB61zruTFlyBM3t3171jV"
+    },
+    "patch_strip": 0
+}
