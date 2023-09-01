@@ -1,0 +1,8 @@
+{
+    "homepage": "https://github.com/facebook/folly",
+    "maintainers": ["zds <z@libhack.so>"],
+    "versions": [
+	"2023.08.28.00"
+    ],
+    "yanked_versions": []
+}

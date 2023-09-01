@@ -1,0 +1,9 @@
+{
+    "url": "https://github.com/facebook/folly/archive/refs/tags/v2023.08.28.00.tar.gz",
+    "integrity": "sha384-f/KaqWByRvSCHbaxDCSbV+DByqXKLalxbcqn4DwommObRxiAlxp4lSC+pHLboR/e",
+    "strip_prefix": "folly-2023.08.28.00",
+    "patches": {
+	"add_bazel_module_build.patch": "sha384-mhUShYJgXvPGPHXnhii1HazsWRbm1DBT5vM6r6jBQlrhthfajXCyVm0tTOxkkzl1"
+    },
+    "patch_strip": 1
+}
