@@ -1,5 +1,5 @@
 module(
-    name = "org_boost_www_boost",
+    name = "boost",
     version = "1.83.0",
     compatibility_level = 1,
 )
