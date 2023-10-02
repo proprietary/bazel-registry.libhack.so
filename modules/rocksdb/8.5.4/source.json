@@ -1,0 +1,10 @@
+{
+    "url": "https://github.com/facebook/rocksdb/archive/refs/tags/v8.5.4.tar.gz",
+    "integrity": "sha384-jnwilGiciT1ztXfsYHjWWXm7QX+JVAq8QVjaqI+3ZVXhqqTNa83QWnq4EyjHxeHs",
+    "strip_prefix": "rocksdb-8.5.4",
+    "patches": {
+	"add-build-bazel.patch": "sha384-+MeeBHkMrsxYpe0w9eMkVmwyg+ZwSF8twIFesCmuDK5016LEtnnNRwlvEPog6NDV",
+	"add-module-bazel.patch": "sha384-WMZr0Qk57rfzxTQSEIRzkMc5l4JHY0Owb/mRCTiQGo36gwmv2QHe92StrdqDSxFf"
+    },
+    "patch_strip": 0
+}

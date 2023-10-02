@@ -1,0 +1,8 @@
+module(
+    name = "rocksdb",
+    version = "8.5.4",
+    compatibility_level = 8,
+)
+
+bazel_dep(name = "platforms", version = "0.0.4")
+bazel_dep(name = "gflags", version = "2.2.2")

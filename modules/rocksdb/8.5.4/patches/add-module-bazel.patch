@@ -1,0 +1,11 @@
+--- /dev/null	2023-08-29 05:02:59.455689880 -0700
++++ MODULE.bazel	2023-10-01 17:29:28.807271469 -0700
+@@ -0,0 +1,8 @@
++module(
++    name = "rocksdb",
++    version = "8.5.4",
++    compatibility_level = 8,
++)
++
++bazel_dep(name = "platforms", version = "0.0.4")
++bazel_dep(name = "gflags", version = "2.2.2")

@@ -1,0 +1,13 @@
+{
+    "homepage": "https://rocksdb.org/",
+    "maintainers": [
+	"zds <z@libhack.so>"
+    ],
+    "repository": [
+	"github:facebook/rocksdb"
+    ],
+    "versions": [
+	"8.5.4"
+    ],
+    "yanked_versions": []
+}
